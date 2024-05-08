@@ -1,0 +1,17 @@
+#courses{
+    padding:5rem 0 !important;
+  }
+  
+  
+  #courses .card-footer img{
+    width:20%;
+  }
+  
+  #courses .card-text{
+  font-size: 11px ;
+  }
+  
+  #courses .btn{
+    width: 80px;
+    height: 40px;
+  }

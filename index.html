@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- googlefont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/0-global.css" />
+    <link rel="stylesheet" href="css/1-navbar.css" />
+    <link rel="stylesheet" href="css/2-home.css" />
+    <link rel="stylesheet" href="css/3-about.css" />
+    <link rel="stylesheet" href="css/4-ourteachers.css" />
+    <link rel="stylesheet" href="css/5-courses.css" />
+    <link rel="stylesheet" href="css/6-reviews.css" />
+    <link rel="stylesheet" href="css/7-contact.css" />
+    <link rel="stylesheet" href="css/8-footer.css" />
+    <link rel="stylesheet" href="css/9-responsive.css" />
+  </head>
+  <body class="m-1" id="body">
+    <!-- NAVBAR -->
+    <nav
+      class="navbar navbar-expand-lg bg-primary fixed-top border-top border-5 border-primary py-0"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home"
+          ><span class="fw-bold fs-3">EDUCATION</span></a
+        >
+        <button
+          class="navbar-toggler mt-2 mb-2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon fs-5"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item bg-primary">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item bg-primary">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item bg-primary">
+              <a class="nav-link" href="#ourteachers">Our Teachers</a>
+            </li>
+            <li class="nav-item bg-primary">
+              <a class="nav-link" href="#courses">Courses</a>
+            </li>
+            <li class="nav-item bg-primary">
+              <a class="nav-link" href="#reviews">Reviews</a>
+            </li>
+            <li class="nav-item bg-primary">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+          <div class="navbar-text bg-primary py-4 py-md-0 ps-3 ps-lg-0">
+            <a
+              href="#home"
+              class="link-underline link-underline-opacity-0 opacity-100"
+            >
+              <span class="me-2"><i class="bi bi-telephone-fill"></i></span>
+              <span>+65 2244 1100</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HOME -->
+    <section class="home my-0" id="home">
+      <div
+        class="container-home container-fluid home d-flex flex-column justify-content-center align-items-start pb-5"
+        id="home"
+      >
+        <div class="content-home ms-5 mb-5">
+          <h1 class="mb-3 fw-bold">
+            Distance Learning <br />
+            Education Center
+          </h1>
+          <p class="mb-4 fs-6">
+            Our online courses are designed to fit in your industry supporting
+            all-round with latest technologies.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-light rounded-pill py-3 px-5 fw-bold"
+          >
+            Discover More
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARDS -->
+    <!-- cardlar en küçük ekrandan itibaren col-12 yani tüm satırı kaplasın, md ekrandan itibaren 1/3 kaplasın yani col-md-3 -->
+    <section>
+      <div class="container align-items-center text-start mt-5">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <div class="card-body m-5">
+                <i class="bi bi-1-circle-fill fs-1 text-primary"></i>
+                <h5 class="card-title mt-2">Trending Courses</h5>
+                <p class="card-text text-body-secondary fs-6">
+                  Known is free education HTML Bootstrap Template. You can
+                  modify in any way and use this for your website.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <div class="card-body m-5">
+                <i class="bi bi-2-circle-fill fs-1 text-primary"></i>
+                <h5 class="card-title mt-2">Books & Library</h5>
+                <p class="card-text text-body-secondary fs-6">
+                  You are allowed to use Known HTML Template for your commercial
+                  or non-commercial websites.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <div class="card-body m-5">
+                <i class="bi bi-3-circle-fill fs-1 text-primary"></i>
+                <h5 class="card-title mt-2">Certified Teachers</h5>
+                <p class="card-text text-body-secondary fs-6">
+                  Please spread a word about us. Template redistribution is NOT
+                  allowed on any download website.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- card -->
+
+    <!-- ABOUT -->
+    <section id="about" class="mb-5">
+      <div
+        class="container-fluid d-flex flex-column flex-lg-row justify-content-around align-items-center mt-5"
+      >
+        <div class="list-container">
+          <h3 class="mb-4">
+            Start your journey to a better life with online practical courses
+          </h3>
+
+          <div class="d-flex justify-content-start">
+            <i class="bi bi-people fs-1 text-primary"></i>
+            <ul class="list-group">
+              <li class="list-group-item border border-0">
+                <div class="card-text">
+                  <h6>Professional Trainers</h6>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="d-flex justify-content-start">
+            <i class="bi bi-star fs-1 text-primary"></i>
+            <ul class="list-group">
+              <li class="list-group-item border border-0">
+                <div class="card-text">
+                  <h6>International Certifications</h6>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="d-flex justify-content-start">
+            <i class="bi bi-arrow-down-square fs-1 text-primary mb-5"></i>
+            <ul class="list-group">
+              <li class="list-group-item border border-0">
+                <div class="card-text">
+                  <h6>Free for 3 months</h6>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="form-container text-light fs-6 border border-1 rounded rounded-circle bg-dark d-flex justify-content-center align-items-center"
+        >
+          <form>
+            <div>
+              <h5 class="text-center mb-4">Signup Today</h5>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control bg-dark border border-0 border-bottom rounded-0"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Full name"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="password"
+                  class="form-control bg-dark border border-0 border-bottom rounded-0"
+                  id="exampleInputPassword1"
+                  placeholder="Your email adress"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="password"
+                  class="form-control bg-dark border border-0 border-bottom rounded-0"
+                  placeholder="Your password"
+                  id="exampleInputPassword1"
+                />
+              </div>
+            </div>
+
+            <div class="text-center">
+              <button
+                type="submit"
+                class="btn btn-light rounded-pill mt-3 fs-6"
+              >
+                Get Started
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEACHERS -->
+    <!-- teacherlar en küçük ekrandan itibaren ekranın tamamını kaplasın, mdye gelince yarısını kaplasın, lg ye gelince 1/4ünü kaplasın -->
+    <section id="ourteachers" class="teachers pb-5 my-5 mx-0">
+      <h2 class="text-center mt-3 mb-1">Teachers</h2>
+      <p class="text-center mb-3 opacity-50">Meet Professional Trainers</p>
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card mb-3">
+              <img src="images/catherine.jpg" class="card-img-top" alt="..." />
+              <div class="card-body text-start">
+                <h5 class="card-title">Catherine</h5>
+                <p class="card-text">I love Teaching</p>
+              </div>
+
+              <div class="card-footer d-flex gap-4 py-3 bg-primary">
+                <a href="#" class="card-link text-primary"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a href="#" class="card-link text-primary"
+                  ><i class="bi bi-twitter-x"></i
+                ></a>
+                <a href="#" class="card-link text-primary"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card mb-3">
+              <img src="images/jessica.jpg" class="card-img-top" alt="..." />
+              <div class="card-body text-start">
+                <h5 class="card-title">Jessieca</h5>
+                <p class="card-text">I like Online Courses</p>
+              </div>
+
+              <div class="card-footer d-flex gap-4 py-3 bg-primary">
+                <a href="#" class="card-link text-primary"
+                  ><i class="bi bi-google"></i
+                ></a>
+
+                <a href="#" class="card-link text-primary"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card mb-3">
+              <img src="images/mark.jpg" class="card-img-top" alt="..." />
+              <div class="card-body text-start">
+                <h5 class="card-title">Mark Wilson</h5>
+                <p class="card-text">Education is the key!</p>
+              </div>
+
+              <div class="card-footer d-flex gap-4 py-3 bg-primary">
+                <a href="#" class="card-link text-primary"
+                  ><i class="bi bi-twitter-x"></i
+                ></a>
+
+                <a href="#" class="card-link text-primary"
+                  ><i class="bi bi-envelope"></i
+                ></a>
+
+                <a href="#" class="card-link text-primary"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card mb-3">
+              <img src="images/andrew.jpg" class="card-img-top" alt="..." />
+              <div class="card-body text-start">
+                <h5 class="card-title">Andrew Berti</h5>
+                <p class="card-text">Learning requires discipline.</p>
+              </div>
+
+              <div class="card-footer d-flex gap-4 py-3 bg-primary">
+                <a href="#" class="card-link text-primary"
+                  ><i class="bi bi-twitter-x"></i
+                ></a>
+                <a href="#" class="card-link text-primary"
+                  ><i class="bi bi-google"></i>
+                </a>
+                <a href="#" class="card-link text-primary"
+                  ><i class="bi bi-behance"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COURSES -->
+    <!-- kurslar en küçük ekrandan itibaren tüm satırı kaplasın lgye gelince 1/3ünü kaplasın -->
+    <section id="courses" class="courses mt-5">
+      <h5 class="text-center m-0 pt-5">Popular Courses</h5>
+      <p class="text-center fs-6 opacity-50 m-0">
+        Upgrade your skills with newest courses
+      </p>
+
+      <div class="container text-center mt-5">
+        <div class="row">
+          <!-- col -->
+          <div class="col-12 col-lg-4">
+            <div class="card mb-3">
+              <!--card  -->
+
+              <!-- img -->
+              <!-- burada image içerisine metin alma işlemi yaparken
+resmi ve metini kapsayan bir div oluşturup positionunu relative yaparız
+metnin positionuna absolute veririz-->
+              <div class="position-relative">
+                <img src="images/c1.jpg" class="card-img-top" alt="..." />
+
+                <div class="position-absolute bottom-0 start-0 text-light ps-2">
+                  <span class="fs-5 me-4"
+                    ><i class="bi bi-calendar4-week fs-5 me-1"></i>
+                    27/7/2024</span
+                  >
+                  <span class="fs-5"
+                    ><i class="bi bi-clock fs-5 me-1"></i>4.5 Hours</span
+                  >
+                </div>
+              </div>
+              <!--  -->
+              <!--body -->
+              <div class="card-body text-start">
+                <h6 class="card-title">Business & Managament</h6>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+              <!--  -->
+
+              <!-- footer -->
+              <div class="card-footer text-start d-flex align-items-center">
+                <!--  -->
+
+                <div class="d-flex align-items-center">
+                  <div>
+                    <img
+                      src="images/mark.jpg"
+                      alt=""
+                      class="rounded-circle"
+                    /><span class="ms-1">Mark Wilson</span>
+                  </div>
+
+                  <div>
+                    <button type="button" class="btn btn-success">
+                      USD 45
+                    </button>
+                  </div>
+                </div>
+                <!--  -->
+              </div>
+
+              <!--card-->
+            </div>
+          </div>
+          <!-- col -->
+
+          <!-- col -->
+          <div class="col-12 col-lg-4">
+            <div class="card mb-3">
+              <!--card  -->
+
+              <!-- img -->
+              <!-- burada image içerisine metin alma işlemi yaparken
+resmi ve metini kapsayan bir div oluşturup positionunu relative yaparız
+metnin positionuna absolute veririz-->
+              <div class="position-relative">
+                <img src="images/c2.jpg" class="card-img-top" alt="..." />
+
+                <div class="position-absolute bottom-0 start-0 text-light ps-2">
+                  <span class="fs-5 me-4"
+                    ><i class="bi bi-calendar4-week fs-5 me-1"></i>
+                    27/7/2024</span
+                  >
+                  <span class="fs-5"
+                    ><i class="bi bi-clock fs-5 me-1"></i>10 Hours</span
+                  >
+                </div>
+              </div>
+              <!--  -->
+              <!--body -->
+              <div class="card-body text-start">
+                <h6 class="card-title">Graphing & Web Design</h6>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+              <!--  -->
+
+              <!-- footer -->
+              <div class="card-footer text-start d-flex align-items-center">
+                <!--  -->
+
+                <div class="d-flex align-items-center">
+                  <div>
+                    <img
+                      src="images/catherine.jpg"
+                      alt=""
+                      class="rounded-circle"
+                    /><span class="ms-1">Catherine</span>
+                  </div>
+
+                  <div>
+                    <button type="button" class="btn btn-success">
+                      USD 80
+                    </button>
+                  </div>
+                </div>
+                <!--  -->
+              </div>
+
+              <!--card-->
+            </div>
+          </div>
+          <!-- col -->
+
+          <!-- col -->
+          <div class="col-12 col-lg-4">
+            <div class="card mb-3">
+              <!--card  -->
+
+              <!-- img -->
+              <!-- burada image içerisine metin alma işlemi yaparken
+resmi ve metini kapsayan bir div oluşturup positionunu relative yaparız
+metnin positionuna absolute veririz-->
+              <div class="position-relative">
+                <img src="images/c3.jpg" class="card-img-top" alt="..." />
+
+                <div class="position-absolute bottom-0 start-0 text-light ps-2">
+                  <span class="fs-5 me-4"
+                    ><i class="bi bi-calendar4-week fs-5 me-1"></i>
+                    10/08/2024</span
+                  >
+                  <span class="fs-5"
+                    ><i class="bi bi-clock fs-5 me-1"></i>8 Hours</span
+                  >
+                </div>
+              </div>
+              <!--  -->
+              <!--body -->
+              <div class="card-body text-start">
+                <h6 class="card-title">Marketing Communication</h6>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+              <!--  -->
+
+              <!-- footer -->
+              <div class="card-footer text-start d-flex align-items-center">
+                <!--  -->
+
+                <div class="d-flex align-items-center">
+                  <div>
+                    <img
+                      src="images/jessica.jpg"
+                      alt=""
+                      class="rounded-circle"
+                    /><span class="ms-1">Jessica</span>
+                  </div>
+
+                  <div>
+                    <button type="button" class="btn btn-primary">Free</button>
+                  </div>
+                </div>
+                <!--  -->
+              </div>
+
+              <!--card-->
+            </div>
+          </div>
+          <!-- col -->
+        </div>
+      </div>
+    </section>
+
+    <!-- REVİEWS -->
+    <div id="reviews" class="container-fluid text-start mt-5 px-0 px-md-5">
+      <h2 class="text-center">Student Reviews</h2>
+      <h5 class="text-center mb-5 opacity-50">from around the world</h5>
+
+      <div class="row">
+        <!--  -->
+        <div class="col-12 col-md-4">
+          <div class="card">
+            <div class="card-body py-5">
+              <div class="d-flex justify-content-start align-items-center">
+                <img src="images/r1.jpg" alt="" class="rounded-circle mb-4" />
+
+                <div class="d-flex flex-column ms-3 mb-4">
+                  <h5 class="card-title">Jackson</h5>
+                  <h6 class="card-subtitle text-body-secondary opacity-50">
+                    Shopify Developer
+                  </h6>
+                </div>
+              </div>
+              <p class="card-text">
+                You really do help young creative minds to get quality education
+                and professional job search asistance.I'd recommend it to
+                everyone!
+              </p>
+              <div>
+                <i class="bi bi-star-fill me-1 text-primary"></i
+                ><i class="bi bi-star-fill me-1 text-primary"></i
+                ><i class="bi bi-star-fill me-1 text-primary"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+        <div class="col-12 col-md-4">
+          <div class="card">
+            <div class="card-body py-5">
+              <div class="d-flex justify-content-start align-items-center">
+                <img src="images/r2.jpg" alt="" class="rounded-circle mb-4" />
+
+                <div class="d-flex flex-column ms-3 mb-4">
+                  <h5 class="card-title">Camila</h5>
+                  <h6 class="card-subtitle text-body-secondary opacity-50">
+                    Marketing Manager
+                  </h6>
+                </div>
+              </div>
+              <p class="card-text">
+                Trying something new is exciting!Thanks for the amazing law
+                course and the great teacher who was able to make it
+                interesting.
+              </p>
+              <div>
+                <i class="bi bi-star-fill me-1 text-primary"></i
+                ><i class="bi bi-star-fill me-1 text-primary"></i
+                ><i class="bi bi-star-fill me-1 text-primary"></i
+                ><i class="bi bi-star-fill me-1 text-primary"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="col-12 col-md-4">
+          <div class="card">
+            <div class="card-body py-5">
+              <div class="d-flex justify-content-start align-items-center">
+                <img src="images/r3.jpg" alt="" class="rounded-circle mb-4" />
+
+                <div class="d-flex flex-column ms-3 mb-4">
+                  <h5 class="card-title">Barbie</h5>
+                  <h6 class="card-subtitle text-body-secondary opacity-50">
+                    Web Developer
+                  </h6>
+                </div>
+              </div>
+              <p class="card-text">
+                Certainly! Here's a suggestion: "Exploring a web development
+                course feels invigorating! Thanks to the fantastic instructor
+                who made the journey all the more engaging.
+              </p>
+              <div>
+                <i class="bi bi-star-fill me-1 text-primary"></i
+                ><i class="bi bi-star-fill me-1 text-primary"></i
+                ><i class="bi bi-star-fill me-1 text-primary"></i
+                ><i class="bi bi-star-fill me-1 text-primary"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+      </div>
+    </div>
+
+    <!--CONTACT -->
+    <section id="contact">
+      <div
+        class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-5"
+      >
+        <div>
+          <h1 class="text-light">Contact Us</h1>
+          <p class="text-light fs-4">we love conversations. let us talk!</p>
+
+          <form>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Enter full name"
+              />
+            </div>
+
+            <div class="mb-3">
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                placeholder="Enter email adress"
+              />
+            </div>
+
+            <div class="mb-3">
+              <textarea
+                name="message"
+                id="message"
+                rows="4"
+                placeholder="Tell us about your message"
+                class="form-control"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-2 btn-light rounded-pill">
+              Send Message
+            </button>
+          </form>
+        </div>
+
+        <div class="mt-5">
+          <img class="img-2" src="images/ct.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!--FOOTER -->
+
+    <footer class="bg-info text-light">
+      <div
+        class="container d-flex flex-column flex-lg-row justify-content-around"
+      >
+        <!--  -->
+
+        <div class="d-flex flex-column flex-md-row gap-5">
+          <!--  -->
+          <div>
+            <h5>Headquarter</h5>
+            <p class="mt-3">
+              1800 dapibus a tortor pretium, Integer nisl dui, ABC 12000
+            </p>
+
+            <div class="mt-5 mb-4">
+              <a href="#" class="card-link opacity-100 text-success"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="#" class="card-link opacity-100 text-success"
+                ><i class="bi bi-twitter-x"></i
+              ></a>
+              <a href="#" class="card-link opacity-100 text-success"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </div>
+            <p>Copyright © 2019 Company Name</p>
+            <p>Design: TemplateMo</p>
+          </div>
+
+          <!--  -->
+
+          <div>
+            <!--  -->
+
+            <div>
+              <h5>Contact Info</h5>
+              <p class="mt-3 mb-1">+65 2244 1100, +66 1800 1100</p>
+              <a href="">hello@youremail.com</a>
+            </div>
+
+            <div>
+              <h5 class="mt-5 mb-3">Quick Links</h5>
+
+              <div class="d-flex gap-3">
+                <a href="">Career</a>
+                <a href="">Investor</a>
+                <a href="">Terms & Conditions</a>
+              </div>
+              <p class="mt-2 mb-1">+65 2244 1100, +66 1800 1100</p>
+
+              <a href="">hello@youremail.com</a>
+            </div>
+          </div>
+
+          <!--  -->
+        </div>
+
+        <!--  -->
+        <div class="mt-5 mt-md-0">
+          <h5 class="">Newsletter Signup</h5>
+
+          <form>
+            <div class="mb-3 opacity-50">
+              <input
+                type="email"
+                class="form-control bg-info border border-0 border-bottom rounded-0"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Enter your email"
+              />
+            </div>
+
+            <button
+              type="submit"
+              class="btn btn-outline-light rounded-pill mb-3"
+            >
+              Send mee
+            </button>
+
+            <p>* Please note - we do not spam your email.</p>
+          </form>
+        </div>
+
+        <!--  -->
+      </div>
+    </footer>
+
+    <!--SCRİPT-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+      src="app.js"
+    ></script>
+  </body>
+</html>

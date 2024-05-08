@@ -1,0 +1,31 @@
+#about {
+  padding: 6rem 0 7rem 0;
+}
+
+.list-container {
+  max-width: 400px;
+}
+
+#about .form-container {
+  width: 420px;
+  height: 400px;
+}
+
+#about .form-control {
+  height: 2rem;
+  width: 10rem;
+  border-color: rgb(129, 129, 129) !important;
+}
+
+#about .form-control::placeholder {
+  color: rgb(129, 129, 129);
+  font-size: 0.9rem;
+}
+
+#about .form-control:focus {
+  box-shadow: none !important;
+}
+
+#about input {
+  color: rgb(129, 129, 129);
+}

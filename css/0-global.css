@@ -1,0 +1,40 @@
+*{
+margin: 0;
+padding: 0;
+font-family: "Nunito Sans", sans-serif;
+font-size: 14px;
+}
+
+
+
+.bg-primary {
+  background-color: rgb(248, 245, 238) !important;
+}
+
+.border-primary {
+  border-color: #511d1c !important;
+}
+
+/*
+.navbar:not(.active):active .active {
+  background-color:rgb(248, 245, 238) !important;
+} */
+
+.text-primary {
+  color: #854909 !important;
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+
+
+textarea {
+  resize: none;
+}
+
+.bg-info {
+  background-color: #080c1f !important;
+}
+
+

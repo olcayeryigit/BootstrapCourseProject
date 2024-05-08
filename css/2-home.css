@@ -1,0 +1,11 @@
+.container-home {
+  height: 42em;
+  width: 100%;
+  background-image: url("../images/home.jpg");
+  background-size: cover;
+  color: rgb(255, 255, 255);
+}
+
+.content-home {
+  max-width: 470px;
+}

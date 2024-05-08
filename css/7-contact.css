@@ -1,0 +1,14 @@
+#contact{
+    background-color: #00264e;
+  padding: 9rem 0 10rem 0;
+  }
+  
+  
+  #contact img{
+    max-width: 25rem;
+    height: auto;
+  }
+  
+  #reviews .form-control{
+    width: 30rem;
+  }

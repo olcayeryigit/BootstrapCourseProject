@@ -1,0 +1,22 @@
+#reviews img {
+  width: 15%;
+  height: auto;
+}
+
+#reviews .card {
+  margin-bottom: 1rem;
+}
+
+#reviews {
+  background-color: #f9f9f9;
+  padding: 8rem 6rem;
+}
+
+#reviews .card-body p {
+  font-size: 1.1rem;
+  opacity: 0.5;
+}
+
+#reviews .card-body .card-subtitle {
+  font-size: 11px;
+}
